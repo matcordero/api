@@ -1,0 +1,52 @@
+* {
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+	font-family: poppins;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("./oficina-edificio-moderno-fondo-cielo-azul_35761-198.webp");
+}
+.form-box {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 40px 30px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #000;
+	width: 500px;
+	height: 430px;
+}
+.form-box .header-text h1{
+	font-size: 50px;
+	font-weight: 600;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.form-box label{
+	font-size: 24px;
+}
+.form-box input {
+	margin: 10px 0px;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	width: 100%;
+	font-size: 18px;
+	font-family: poppins;
+}
+.form-box button {
+	background-color: deepskyblue;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+	padding: 10px;
+	margin: 20px 0px;
+}
