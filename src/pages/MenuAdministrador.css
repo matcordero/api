@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Outfit:wght@300;400;600&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 500;
+    
+}
+#root{
+    width: 100%;
+	height: 100%;
+}
+
+body{
+    background-image: url("oficina-edificio-moderno-fondo-cielo-azul_35761-198.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+	height: 100vh;
+}
+
+li,a,button{
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    background-color: #433cb1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.Span-usuario{
+    color:azure;
+}
+
+.cdc{
+    padding: 9px 25px;
+    background-color:cornflowerblue;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.MainContainer{
+    width: 100%;
+    height: 100%;
+}
