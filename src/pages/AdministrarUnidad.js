@@ -19,7 +19,6 @@ function AdministrarUnidad(){
                     <li>Agregar Inquilino Unidad</li>
                     <li>Liberar Unidad</li>
                     <li>Habitar Unidad</li>
-                    <Link className="Link" to="RegistrarUsuario">Registrar Usuario</Link>
                 </ul>
             </nav>
             </header>
