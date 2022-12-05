@@ -41,7 +41,7 @@ function Login(){
         .then(response => {
             if (response!= null){ 
                 sessionStorage.setItem("usuario",response.usuario)
-                sessionStorage.setItem("contraseña",response.contraseña)
+                sessionStorage.setItem("contraseña",user.contraseñaEmpleado)
                 sessionStorage.setItem("documento",response.persona.documento)
                 // eslint-disable-next-line
                 if(response.permisos.length > 1 || response.permisos[0].permiso != "habitante" ){

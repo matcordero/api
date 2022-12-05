@@ -14,10 +14,10 @@ function MenuHabitante(){
             <h1>Sistema de Reclamos | Habitante : <span className="Span-usuario">{sessionStorage.getItem("usuario")}</span></h1>
             <nav>
                 <ul className="nav_links">
-                    <li>Reclamos</li>
-                    <li>Edificio</li>
-                    <li>Unidades Funcionales</li>
-                    <Link to="dashboard">Dashboard</Link>
+                    <Link to="RegistrarReclamo" className="Link">Cargar Reclamos</Link>
+                    <Link to="MisReclamos" className="Link">Ver Reclamos</Link>
+                    <Link to="EdificiosHabitantes" className="Link">Edificios</Link>
+                    <Link to="UnidadesFuncionales" className="Link">Unidades Funcionales</Link>
                 </ul>
             </nav>
             <button className="cdc" onClick={() => navigate("/")}>Cambiar de Cuenta</button>

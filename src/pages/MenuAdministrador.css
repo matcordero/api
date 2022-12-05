@@ -32,14 +32,18 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 30px 5%;
 }
+.header2{
+    padding: 30px 1%;
+}
+
 
 .nav_links{
     list-style: none;
 }
 
-.nav_links li{
+.nav_links li,.Link{
     display: inline-block;
     padding: 0px 20px;
 }
@@ -57,4 +61,29 @@ header{
 .MainContainer{
     width: 100%;
     height: 100%;
+}
+
+
+.Container-Unidades{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.main-Container-unidades,.main-Container-edificios{
+    background-color: #4c43c6;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.Container-Unidades .Container-elements{
+    padding: 10px;
+    border: 1px black solid;
+}
+.Container-Unidades div button{
+    width: 100%;
+    height: 30px;
+    color: black;
+    margin: 0 auto;
 }

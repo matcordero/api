@@ -1,0 +1,66 @@
+.Container-Detalle{
+    background-color: #4c43c6;
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px 10px;
+
+}
+.Container-Detalle h1{
+    font-size: 40px;
+}
+.Container-Detalle div h2{
+    font-size: 35px;
+}
+.Datos-Detalle{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 25px;
+    align-items: center;
+    margin: 20px;
+    margin-left: 0;
+}
+.Datos-Detalle p{
+    padding: 10px;
+    border: 3px #30298f solid;
+}
+.Datos-Detalle p span{
+    font-weight: 800;
+}
+.Datos-Detalle h3 span{
+    font-weight: 800;
+}
+
+.Inquilinos-Detalles div{
+    padding: 10px;
+    border: 3px #30298f solid;
+}
+.Duenios-Detalles div{
+    padding: 10px;
+    border: 3px #30298f solid;
+}
+
+.descripcion, .ubicacion{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 20px;
+}
+.button-reclamo button{
+    width: 400px;
+    margin-left: 20px;
+    color: #30298f;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(203, 200, 244);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.Imagen{
+    width: 50%;
+}
