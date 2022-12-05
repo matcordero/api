@@ -14,8 +14,8 @@ function MenuAdministrador(){
             <h1>Sistema de Reclamos | Administrador : <span className="Span-usuario">{sessionStorage.getItem("usuario")}</span></h1>
             <nav>
                 <ul className="nav_links">
-                    <li>Cambiar Estado Reclamo</li>
-                    <li>Crear Edificio</li>
+                    <Link className="Link" to="CambiarEstado">Cambiar Estado Reclamo</Link>
+                    <Link className="Link" to="AgregarEdificio">Crear Edificio</Link>
                     <Link className="Link" to="AdministrarUnidad">Administrar Unidad</Link>
                     <Link className="Link" to="RegistrarPersona">Registrar Persona</Link>
                     <Link className="Link" to="AdministrarUsuario">Administrar Usuario</Link>

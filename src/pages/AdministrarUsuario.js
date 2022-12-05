@@ -1,7 +1,7 @@
 import "./MenuAdministrador.css"
 import React from 'react';
 import {
-    useNavigate, Outlet,
+    Outlet,
     Link
   } from "react-router-dom";
 
@@ -13,10 +13,10 @@ function AdministrarUsuario(){
             <header className="header2">
             <nav>
                 <ul className="nav_links">
-                    <li>Agregar Permiso</li>
-                    <li>Quitar Permiso</li>
-                    <li>Ver Permiso Usuario</li>
-                    <li>Eliminar Usuario</li>
+                    <Link className="Link" to="AgregarPermiso">Agregar Permiso</Link>
+                    <Link className="Link" to="EliminarPermiso">Quitar Permiso</Link>
+                    <Link className="Link" to="Personas">Listado Personas</Link>
+                    <Link className="Link" to="Usuarios">Listado Usuarios</Link>
                     <Link className="Link" to="RegistrarUsuario">Registrar Usuario</Link>
                 </ul>
             </nav>

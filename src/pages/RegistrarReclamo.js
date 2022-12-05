@@ -14,39 +14,14 @@ const RegistrarReclamo = () => {
 const inputs=[
 {
   id:1,
-  name:"edificio",
+  name:"numero",
   type:"text",
-  placeholder:"Ingrese su edificio.",
-  errorMessage:"El edificio no existe",
-  label:"Edificio",
+  placeholder:"Ingresar Numero de Reclamo.",
+  errorMessage:"El Reclamo no existe",
+  label:"Ingresar Reclamo",
   required:true
-},
-{
-  id:2,
-  name:"piso",
-  type:"int",
-  placeholder:"Ingrese el Piso",
-  errorMessage:"El piso no existe para el edificio elegido",
-  label:"Piso",
-  required:true,
-},
-{
-  id:3,
-  name:"numeroUnidad",
-  type:"int",
-  placeholder:"Ingrese el Numero de Unidad",
-  label:"Numero de Unidad",
-  required:true
-},
-{
-  id:4,
-  name:"descripcion",
-  type:"text",
-  errorMessage:"La descripción es de máximo () caracteres",
-  placeholder:"Ingrese una descripción",
-  label:"Descripción",
-  required:true
-},
+}
+
 
 ];
   
@@ -103,7 +78,7 @@ const inputs=[
 
   return( <div className="app"> 
     <form onSubmit={handleSubmit} className="form-RegistrarPersona">
-    <h1 className='h1-RegistrarPersona'>Crear Reclamo</h1>
+    <h1 className='h1-RegistrarPersona'>Agregar Imagen al Reclamo</h1>
       {inputs.map((input)=> (
       <FormInput key={input.id} {...input} value={values[input.name]} 
       onChange={onChange}

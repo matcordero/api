@@ -40,16 +40,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  background: linear-gradient(
-    rgba(255, 255, 255, 0.36),
-    rgba(255,255,255,0.3)
-  ),
-  url("https://images.unsplash.com/photo-1578070181910-f1e514afdd08?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
-    background-size: cover;
-    background-position: center;
-
-
+  height: 80vh;
 }
 
 .form-RegistrarPersona{

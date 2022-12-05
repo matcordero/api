@@ -1,7 +1,7 @@
 import "./MenuAdministrador.css"
 import React from 'react';
 import {
-    useNavigate, Outlet,
+    Outlet,
     Link
   } from "react-router-dom";
 
@@ -13,12 +13,15 @@ function AdministrarUnidad(){
             <header className="header2">
             <nav>
                 <ul className="nav_links">
-                    <li>Transferir Unidad</li>
-                    <li>Agregar Duenio Inquilino</li>
-                    <li>Alquilar Unidad</li>
-                    <li>Agregar Inquilino Unidad</li>
-                    <li>Liberar Unidad</li>
-                    <li>Habitar Unidad</li>
+                    <Link className="Link" to="CrearUnidad">Crear Unidad</Link>
+                    <Link className="Link" to="TransferirUnidad">Transferir Unidad</Link>
+                    <Link className="Link" to="AgregarDuenioInquilino">Agregar Dueñio Inquilino</Link>
+                    <Link className="Link" to="AlquilarUnidad">Alquilar Unidad</Link>
+                    <Link className="Link" to="AgregarInquilino">Agregar Inquilino Unidad</Link>
+                    <Link className="Link" to="LiberarUnidades">Liberar Unidad</Link>
+                    <Link className="Link" to="HabitarUnidad">Habitar Unidad</Link>
+                    <Link className="Link" to="MostrarUnidades">Mostrar Unidad</Link>
+                    <Link className="Link" to="MostrarEdificios">Mostrar Edificios</Link>
                 </ul>
             </nav>
             </header>

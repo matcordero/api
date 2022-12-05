@@ -1,0 +1,60 @@
+ .formInput{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+ }
+
+ 
+ 
+.input-RegistrarPersona{
+    padding: 3px;
+    margin: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid gainsboro ;
+    color: black;
+ }
+
+ .label-RegistrarPersona{
+    font-size: 20px;
+    padding: 15px;
+    padding-bottom: 4px;
+    color:gray;
+
+ }
+
+.span-RegistrarPersona{
+    font-size: 12px;
+    padding: 3px;
+    color: orangered;
+    display: none;
+ }
+
+
+
+ .input-RegistrarPersona:invalid[focused="true"]{
+    border: 1px solid red;
+ }
+ 
+ .input-RegistrarPersona:invalid[focused="true"] ~ span{
+    display: block;
+ }
+ .text-CReclamo {
+   font-size: 20px;
+   padding: 15px;
+   padding-bottom: 4px;
+   color:gray;
+ }
+ 
+ .button-CReclamo{
+   width: 100%;
+   height: 50px;
+   padding: 10px;
+   border: none;
+   background-color: rgb(67,60,177);
+   color: white;
+   border-radius: 5px;
+   font-weight: bold;
+   font-size: 18px;
+   cursor: pointer;
+   margin-top: 15px;
+ }

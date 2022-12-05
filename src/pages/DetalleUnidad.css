@@ -14,6 +14,7 @@
 .Datos-Detalle{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 20px;
     font-size: 25px;
     align-items: center;
@@ -60,7 +61,29 @@
     cursor: pointer;
     margin-top: 15px;
 }
+.button-reclamo input{
+    width: 400px;
+    margin-left: 20px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+}
 
-.Imagen{
-    width: 50%;
+.lista-reclamos{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 25px;
+    align-items: center;
+}
+
+.Imagen div{
+    width: 32%;
+}
+
+.Imagen div img{
+    width: 100%;
 }
