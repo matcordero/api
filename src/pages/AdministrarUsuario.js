@@ -14,6 +14,7 @@ function AdministrarUsuario(){
             <nav>
                 <ul className="nav_links">
                     <li>Agregar Permiso</li>
+                    <li>Quitar Permiso</li>
                     <li>Ver Permiso Usuario</li>
                     <li>Eliminar Usuario</li>
                     <Link className="Link" to="RegistrarUsuario">Registrar Usuario</Link>
